@@ -1,1 +1,24 @@
-public class Rectangulo extends 
+public class Rectangulo extends Figura{
+    //atributos
+    private double l1;
+    private double l2;
+
+    //métodos
+    public void Setl1(L1){
+        this.l1 = L1;
+    }
+    public void Setl2(L2){
+        this.l2 = L2;
+    }
+    public double Getl1(){
+        return this.l1;
+    }
+    public double Getl2(){
+        return this.l2;
+    }
+    public double GetArea() {
+        area = l1*l2;
+        return area;
+    }
+    }
+}

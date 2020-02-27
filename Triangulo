@@ -1,0 +1,23 @@
+public class Triangulo extends Figura{
+    //atributos
+    private double base;
+    private double height;
+
+    //métodos
+    public void SetBase(Base){
+        this.base = Base;
+    }
+    public void SetHeight(Height){
+        this.height = Height;
+    }
+    public double GetBase(){
+        return this.base;
+    }
+    public double GetHeight(){
+        return this.height;
+    }
+    public double GetArea(){
+        area = base*height*0.5;
+        return area;
+    }
+}
