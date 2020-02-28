@@ -1,0 +1,11 @@
+public class Figura {
+    public abstract double area() //la clase abstracta obliga que las subclases rellenen la codificación
+    {
+        abstract double GetArea();
+    }
+//    public interface Comparator { //hay q hacerlo pero no se como se hace irmãos
+ //       public int Comparator(Ee){
+
+//}
+ //   }
+}

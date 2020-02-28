@@ -14,5 +14,9 @@ public class Circulo extends Figura {
         area = Math.PI*(Math.pow(this.Radius,2));
         return area;
     }
+    //constructor
+    public Circulo(double radius){
+        this.Radius = radius;
+    }
 
 }

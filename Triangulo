@@ -20,4 +20,9 @@ public class Triangulo extends Figura{
         area = base*height*0.5;
         return area;
     }
+    //constructor
+    public Triangulo(double b,double h){
+        this.base = b;
+        this.height = h;
+    }
 }
