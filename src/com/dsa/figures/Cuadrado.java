@@ -1,6 +1,6 @@
 package com.dsa.figures;
 
-public class Cuadrado extends Rectangulo {
+public class Cuadrado extends Figura {
 
     // Construtor do circulo
     public Cuadrado (float l) {
