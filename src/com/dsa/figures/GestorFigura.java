@@ -13,4 +13,10 @@ public class GestorFigura {
         return suma;
     }
 
+    //Sort an array of Figura by its areas
+    static void sort(Figura[] fig) {
+        Arrays.sort(fig);
+    }
+
+
 }

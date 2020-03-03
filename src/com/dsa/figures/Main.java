@@ -29,11 +29,21 @@ public class Main {
         Figura[] fig2 = {tri1,rec1,cir1,cua1};
 
         for (Figura n: fig2){
-            System.out.println(n.GetArea());
+            // Nome simples mais lowercase do nome
+            System.out.println("Area del "+n.getClass().getSimpleName().toLowerCase()+" = "+n.GetArea());
+        }
+
+        GestorFigura.sort(fig2);
+
+        for (Figura n: fig2){
+            // Nome simples mais lowercase do nome
+            System.out.println("Area del "+n.getClass().getSimpleName().toLowerCase()+" = "+n.GetArea());
         }
 
         // Teste funcao soma areas
         System.out.println("Soma area = "+GestorFigura.sumaAreas(fig2));
+
+
 
     }
 
