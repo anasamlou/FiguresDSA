@@ -38,6 +38,12 @@ public class Main {
         for (Figura n: fig2){
             // Nome simples mais lowercase do nome
             System.out.println("Area del "+n.getClass().getSimpleName().toLowerCase()+" = "+n.GetArea());
+
+            if(n instanceof Cuadrado ) {
+                Cuadrado c = (Cuadrado) n;
+                c.SetLado2(2);
+            }
+
         }
 
         // Teste funcao soma areas
