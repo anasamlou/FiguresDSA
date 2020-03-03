@@ -1,10 +1,20 @@
 package com.dsa.figures;
 
-public class Cuadrado extends Figura {
+public class Cuadrado extends Rectangulo {
 
-    // Construtor do circulo
-    public Cuadrado (float l) {
-        // Metodo super passa valores para o contrutor da classe pai
+    // Metodo SET
+    public void SetLado(double l){
+        super.SetLado1(l);
+        super.SetLado2(l);
+    }
+
+    // Metodo GET
+    public double GetLado(){
+        return super.GetL1();
+    }
+
+    public Cuadrado(double l) {
+
         super(l,l);
     }
 
