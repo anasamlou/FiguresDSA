@@ -4,10 +4,27 @@ public class Triangulo extends Figura{
 
     private double base, altura;
 
-    // Construtor do circulo
-    public Triangulo (double l1, double l2) {
-        this.base = l1;
-        this.altura = l2;
+    // Metodos SET
+    public void SetBase(double b){
+        this.base = b;
+    }
+    public void SetAltura(double a){
+        this.altura = a;
+    }
+
+    // Metodos GET
+    public double GetBase(){
+        return this.base;
+    }
+
+    public double GetAltura(){
+        return this.altura;
+    }
+
+    // Construtor do triangulo
+    public Triangulo (double b, double a) {
+        this.base = b;
+        this.altura = a;
     }
 
     // Metodo herdado de figura
