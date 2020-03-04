@@ -5,7 +5,7 @@ import java.util.ArrayList;
 // Classe Main ainda inutil, so para testes
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(string[] args){
 
         System.out.println("Hello world!");
         Triangulo tri1 = new Triangulo(3,4);
