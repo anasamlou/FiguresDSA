@@ -2,7 +2,7 @@ package com.dsa.figures;
 
 import java.util.Arrays;
 
-public class GestorFigura {
+public interface GestorFigura {
 
     // Funcao para somar todas as areas
     static double sumaAreas(Figura [] fig) {
