@@ -1,12 +1,8 @@
 package com.dsa.figures;
 
 public class Cuadrado extends Rectangulo {
-<<<<<<< HEAD
 
-    // Construtor do circulo
-    public Cuadrado (double l) {
-        // Metodo super passa valores para o contrutor da classe pai
-=======
+    private double lado;
 
     // Metodo SET
     public void SetLado(double l){
@@ -21,7 +17,6 @@ public class Cuadrado extends Rectangulo {
 
     public Cuadrado(double l) {
 
->>>>>>> 87498e3aed5b1a252b9af8db649f82525c666b19
         super(l,l);
     }
 
