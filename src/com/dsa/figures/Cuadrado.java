@@ -2,7 +2,14 @@ package com.dsa.figures;
 
 public class Cuadrado extends Rectangulo {
 
+<<<<<<< HEAD
     private double lado;
+=======
+    // Construtor do cuadrado
+    public Cuadrado(double l) {
+        super(l,l);
+    }
+>>>>>>> 1d061b7a32af6eefac5571ef66c764e5a1e3aaf7
 
     // Metodo SET
     public void SetLado(double l){
@@ -15,9 +22,11 @@ public class Cuadrado extends Rectangulo {
         return super.GetL1();
     }
 
-    public Cuadrado(double l) {
 
+<<<<<<< HEAD
         super(l,l);
     }
+=======
+>>>>>>> 1d061b7a32af6eefac5571ef66c764e5a1e3aaf7
 
 }
