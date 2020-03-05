@@ -29,7 +29,7 @@ public class Rectangulo extends Figura {
 
     // Metodo GetArea herdado de figura
     @Override
-    public double GetArea() {
+    public double getArea() {
         return (this.lado1*this.lado2);
     }
 

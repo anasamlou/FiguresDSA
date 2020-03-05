@@ -21,7 +21,7 @@ public class Circulo extends Figura {
 
     // Metodo herdado de figura
     @Override
-    public double GetArea() {
+    public double getArea() {
         // Nao tem necessidade de ser double
         return (float) (Math.PI * Math.pow(this.raio, 2));
     }

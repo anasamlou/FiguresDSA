@@ -29,7 +29,7 @@ public class Triangulo extends Figura{
 
     // Metodo herdado de figura
     @Override
-    public double GetArea() {
+    public double getArea() {
         // Tem que fazer a formula para calcular a area do triangulo (so deixei assim pra testar)
         return (this.base*this.altura);
     }
