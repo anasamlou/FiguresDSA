@@ -1,11 +1,14 @@
 package com.dsa.figures;
 
+
 // Classe Main ainda inutil, so para testes
 public class Main {
 
     public static void main(String[] args){
 
         System.out.println("Hello world!");
+
+        System.out.println("Sem ordenar:");
 
         Triangulo tri1 = new Triangulo(3,4);
         Rectangulo rec1 = new Rectangulo(3,4);
@@ -19,12 +22,14 @@ public class Main {
         fig[2] = cir1;
         fig[3] = cua1;
 
-        System.out.println(fig[0].getArea());
-        System.out.println(fig[1].getArea());
-        System.out.println(fig[2].getArea());
-        System.out.println(fig[3].getArea());
 
-        // Maneira mais facil
+//        System.out.println(fig[0].GetArea());
+//        System.out.println(fig[1].GetArea());
+//        System.out.println(fig[2].GetArea());
+//        System.out.println(fig[3].GetArea());
+
+
+        // Maneira mais eficiente de printar
         Figura[] fig2 = {tri1,rec1,cir1,cua1};
 
         for (Figura n: fig2){
@@ -38,6 +43,8 @@ public class Main {
         System.out.println("Area del cuadrado "+quad.GetLado());
 
         GestorFigura.sort(fig2);
+        //Printamos da manera ordenada
+        System.out.println("Ordenado:");
 
         for (Figura n: fig2){
             // Nome simples mais lowercase do nome

@@ -2,6 +2,7 @@ package com.dsa.figures;
 
 public class Cuadrado extends Rectangulo {
 
+    private double lado;
     // Construtor do cuadrado
     public Cuadrado(double l) {
         super(l,l);
@@ -19,5 +20,7 @@ public class Cuadrado extends Rectangulo {
     }
 
 
+    }
 
-}
+
+
