@@ -11,19 +11,19 @@ public class Rectangulo extends Figura {
     }
 
     // Metodos SET
-    public void SetLado1(double l1){
+    public void setLado1(double l1){
         this.lado1 = l1;
     }
-    public void SetLado2(double l2){
+    public void setLado2(double l2){
         this.lado2 = l2;
     }
 
     // Metodos GET
-    public double GetL1(){
+    public double getL1(){
         return this.lado1;
     }
 
-    public double GetL2(){
+    public double getL2(){
         return this.lado2;
     }
 

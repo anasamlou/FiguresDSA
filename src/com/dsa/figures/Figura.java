@@ -9,13 +9,16 @@ abstract class Figura implements Comparable<Figura>{
     // Implementacao do metodo compareTo na clase comparable
     @Override
     public int compareTo(Figura n) {
-        // return (int)this.getArea()-n.getArea();
 
-        if (this.getArea() < n.getArea()) {
-            return -1;
-        }else{
-            return 1;
-        }
+
+//        if (this.getArea() < n.getArea()) {
+//            return -1;
+//        }else{
+//            return 1;
+//        }
+
+        // Maneira melhor
+        return (int)(this.getArea()-n.getArea());
 
     }
 }

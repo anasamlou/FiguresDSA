@@ -10,12 +10,12 @@ public class Circulo extends Figura {
     }
 
     // Metodo SET
-    public void SetRaio(double r){
+    public void setRaio(double r){
         this.raio = r;
     }
 
     // Metodo GET
-    public double GetRaio(){
+    public double getRaio(){
         return this.raio;
     }
 

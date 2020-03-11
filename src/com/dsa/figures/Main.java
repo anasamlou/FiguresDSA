@@ -15,12 +15,12 @@ public class Main {
         Circulo cir1 = new Circulo(3);
         Cuadrado cua1 = new Cuadrado(3);
 
-        Figura[] fig = new Figura[4];
-
-        fig[0] = tri1;
-        fig[1] = rec1;
-        fig[2] = cir1;
-        fig[3] = cua1;
+//        Figura[] fig = new Figura[4];
+//
+//        fig[0] = tri1;
+//        fig[1] = rec1;
+//        fig[2] = cir1;
+//        fig[3] = cua1;
 
 
 //        System.out.println(fig[0].GetArea());
@@ -40,7 +40,7 @@ public class Main {
 
         Cuadrado quad = new Cuadrado(15);
 
-        System.out.println("Area del cuadrado "+quad.GetLado());
+        System.out.println("Area del cuadrado "+quad.getLado());
 
         GestorFigura.sort(fig2);
         //Printamos da manera ordenada

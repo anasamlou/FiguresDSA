@@ -5,19 +5,19 @@ public class Triangulo extends Figura{
     private double base, altura;
 
     // Metodos SET
-    public void SetBase(double b){
+    public void setBase(double b){
         this.base = b;
     }
-    public void SetAltura(double a){
+    public void setAltura(double a){
         this.altura = a;
     }
 
     // Metodos GET
-    public double GetBase(){
+    public double getBase(){
         return this.base;
     }
 
-    public double GetAltura(){
+    public double getAltura(){
         return this.altura;
     }
 

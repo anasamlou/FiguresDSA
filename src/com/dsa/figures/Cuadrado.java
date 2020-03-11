@@ -9,14 +9,14 @@ public class Cuadrado extends Rectangulo {
     }
 
     // Metodo SET
-    public void SetLado(double l){
-        super.SetLado1(l);
-        super.SetLado2(l);
+    public void setLado(double l){
+        super.setLado1(l);
+        super.setLado2(l);
     }
 
     // Metodo GET
-    public double GetLado(){
-        return super.GetL1();
+    public double getLado(){
+        return super.getL1();
     }
 
 
